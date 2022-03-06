@@ -50,18 +50,6 @@ var config = {
 			position: "top_right"
 		},
 		{
-			module: "calendar",
-			header: "US Holidays",
-			position: "top_right",
-			config: {
-				calendars: [
-					{
-						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					}
-				]
-			}
-		},
-		{
 			module: "newsfeed",
 			position: "bottom_bar",
 			config: {
