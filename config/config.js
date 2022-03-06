@@ -47,41 +47,18 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_right"
 		},
 		{
 			module: "calendar",
 			header: "US Holidays",
-			position: "top_left",
+			position: "top_right",
 			config: {
 				calendars: [
 					{
 						symbol: "calendar-check",
 						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					}
 				]
-			}
-		},
-		{
-			module: "compliments",
-			position: "lower_third"
-		},
-		{
-			module: "currentweather",
-			position: "top_right",
-			config: {
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
-			}
-		},
-		{
-			module: "weatherforecast",
-			position: "top_right",
-			header: "Weather Forecast",
-			config: {
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
 		{
