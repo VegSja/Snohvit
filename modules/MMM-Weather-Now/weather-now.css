@@ -1,0 +1,57 @@
+.now {
+  height: 75px;
+  text-align: center;
+}
+
+.nowIcon {
+  margin-top: -10px;
+  margin-right: 5px;
+}
+
+.nowDetail {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: 16px;
+}
+
+.nowTitle {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.nowText {
+  font-size: 16px;
+  text-transform: lowercase;
+  display: inline-block;
+}
+
+.nowText:first-letter {
+  text-transform: uppercase !important;
+}
+
+.nowIcon2 {
+  text-align: center;
+}
+
+.nowText2 {
+  text-align: center;
+}
+
+.nowTitle2 {
+  font-size: 30px;
+  line-height: 70px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.nowTempText2 {
+  font-size: 16px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.nowTempDeg2 {
+  font-size: 16px;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+{
+	"rules": {
+		"indent": ["error", 4],
+		"eqeqeq": "error",
+		"quotes": ["error", "double"],
+		"max-len": ["error", 250],
+		"curly": "error",
+		"camelcase": "error",
+		"no-trailing-spaces": ["error", { "ignoreComments": false }],
+		"no-irregular-whitespace": ["error"],
+		"semi": "error"
+	},
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"globalReturn": true
+		}
+	}
+}

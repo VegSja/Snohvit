@@ -42,29 +42,50 @@ var config = {
 			module: "alert",
 		},
 		{
-			module: "updatenotification",
-			position: "top_bar"
-		},
-		{
 			module: "clock",
 			position: "top_right"
 		},
 		{
-			module: "newsfeed",
-			position: "bottom_bar",
+			module: 	'MMM-Weather-Now',
+			position: 	'top_right',
 			config: {
-				feeds: [
-					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true,
-				broadcastNewsFeeds: true,
-				broadcastNewsUpdates: true
+				api_key:    'e2f1a2c745594c21af82e53a44be2104',
+				lat:		37.3397352,
+				lon:		-121.894958,
+				units:		'M',
+				lang:		'en',
+                tableView:  true,
+				interval:   900000
 			}
 		},
+        {
+			module: "MMM-Entur-tavle",
+			position: "top_right",
+			config: {
+				stopId: '54659',
+				stopType: 'StopPlace',
+				numResults: 2,
+				showHeader: true,
+				highlightRealtime: true,
+				delay: [5, 'minutes'],
+            }
+		},
+	    {
+		module: "newsfeed",
+		position: "bottom_bar",	// This can be any of the regions. Best results in center regions.
+		config: {
+			// The config property is optional.
+			// If no config is set, an example calendar is shown.
+			// See 'Configuration options' for more information.
+
+			feeds: [
+				{
+					title: "VG",
+					url: "https://www.vg.no/rss/feed",
+				},
+			]
+		}
+	}
 	]
 };
 
