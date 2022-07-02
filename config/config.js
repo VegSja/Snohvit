@@ -77,7 +77,6 @@ var config = {
 			// The config property is optional.
 			// If no config is set, an example calendar is shown.
 			// See 'Configuration options' for more information.
-
 			feeds: [
 				{
 					title: "VG",
